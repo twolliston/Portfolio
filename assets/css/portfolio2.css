@@ -1,0 +1,180 @@
+html body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+span{
+    margin-top: 10px;
+    float: right;
+    padding: 10px 0 0 5px;
+}
+
+h1 {
+margin-left: 10px;
+}
+ 
+.nav-wrapper {
+    width: 60%;
+    margin: auto;
+  }
+
+ hr {
+     clear: both;
+     overflow: auto;
+ }
+ 
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    margin-top: 60px;
+    height: 650px;
+}
+
+.bio-title {
+    color: #ffb74d;
+    float: left;
+}
+
+#bio-image {
+    width: 500px;
+    padding-right: 20px; 
+    /* height: 200px; */
+    /* margin-right: 21px; */
+    float: left; 
+} 
+
+#left-column {
+    width: 920px;
+    padding: 20px; 
+    float: left; 
+     font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-color: #ffffff
+}
+
+#right-column {
+    width: 920px;
+    padding: 20px;
+    float: left;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #ffb74d;
+  }
+
+
+  
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media(max-width: 1220px) {
+    .header-left {
+        margin-left: 390px;
+        /* padding-left: 5px;
+        padding-right: 5px; */
+    }
+    
+    .header-right {
+        margin-right: 275px;
+    }  
+}
+  /* Extra large devices large laptops, 1440px and up) */
+  @media(max-width: 1440px) {
+    .header-left {
+        margin-left: 240px;
+        /* padding-left: 5px;
+        padding-right: 5px; */
+    }
+    
+    .header-right {
+        margin-right: 125px;
+    }  
+  }
+
+
+ /* Large devices (laptops/desktops, 992px and up) */ 
+@media(max-width: 959px) {
+    
+    .container {
+        width: 90%;   
+    }
+    #left-column {
+        width: 80%;  
+    }
+    #right-column {
+        width: 80%;  
+    }
+    img {
+        width: 100%;
+    }
+
+    .header-left {
+        margin-left: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .header-right {
+        float: right;
+        margin-right: 180px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 690px) { 
+    .header-right {
+        margin-right: 50px; 
+    }  
+    span{
+      display: none;
+      padding: 0px;
+    }
+
+    .container {
+       height: 700px;
+    }
+}
+
+@media(max-width: 640px) {  
+    #left-column {
+        width: 100%;
+        padding: 10px;   
+    }
+    #right-column {
+        width: 100%; 
+        padding: 10px;   
+    }
+.container {
+    height: 1000px;
+}
+    p {
+        padding: 20px;
+    }
+    h1{
+        margin-left: 20px;
+    }
+}
+   
+/* Set min point to disable responsive */
+@media(max-width: 490px) {
+    .container {
+        width: 90%;   
+    }
+    header {
+        width: 90%;  
+    }
+    .header-right {
+        float: left;
+    }  
+    p {
+        padding: 20px;
+    }
+}
