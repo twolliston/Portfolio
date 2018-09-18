@@ -7,14 +7,43 @@
  * Made By MaterializeCSS.com
  */
 
-
 nav ul a,
 nav .brand-logo {
     color: #444;
 }
+
 #logo-container {
-  margin-left: -80px;
+    margin-left: -80px;
+    color: black;
+    font-size: 32px;
 }
+a#logo-container:hover {
+    color: #fea667;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    color: #fea667;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    color: #fea667;
+}
+
 p {
     line-height: 2rem;
 }
@@ -22,21 +51,23 @@ p {
 /* .parallax--bg {
   transition: initial;
 } */
+
 /* #logo-container {
   border: solid black 1px;
   margin-top: 4px;
   height: 58px;
 } */
 
-
 .col a {
     color: #fea667;
 }
+
 h1.header {
-  color: #fea667;
+    color: #fea667;
 }
+
 .icon-block i {
-  color: #fea667;
+    color: #fea667;
 }
 
 .sidenav-trigger {
@@ -80,5 +111,5 @@ h1.header {
 
 footer.page-footer {
     margin: 0;
-      background-color: #fea667
+    background-color: #fea667
 }

@@ -25,6 +25,38 @@ margin-left: 10px;
      clear: both;
      overflow: auto;
  }
+ /* 
+=======================
+Style Logo 
+======================= 
+*/
+
+a.brand-logo:hover {
+    color: #fea667;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    color: #fea667;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    color: #fea667;
+}
  
 
 .container {
@@ -36,7 +68,7 @@ margin-left: 10px;
 }
 
 .bio-title {
-    color: #ffb74d;
+    color: #fea667;
     float: left;
 }
 
@@ -66,7 +98,7 @@ margin-left: 10px;
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
-    color: #ffb74d;
+    color: #fea667;
   }
 
 
