@@ -17,8 +17,13 @@ nav .brand-logo {
     color: black;
     font-size: 32px;
 }
+
 a#logo-container:hover {
     color: #fea667;
+}
+#resume img {
+    height: 25px;
+    width: 25px;
 }
 
 .waves-effect {
@@ -41,6 +46,10 @@ a#logo-container:hover {
 .waves-effect.waves-brown .waves-ripple {
     /* The alpha value allows the text and background color
     of the button to still show through. */
+    color: #fea667;
+}
+
+.material-icons {
     color: #fea667;
 }
 
@@ -93,11 +102,23 @@ h1.header {
     #index-banner .section {
         top: 10%;
     }
+    #logo-container {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #index-banner .section {
         top: 0;
+    }
+    #logo-container {
+        display: none;
     }
 }
 
